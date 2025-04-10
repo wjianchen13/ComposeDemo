@@ -1,25 +1,25 @@
-package com.example.composedemo
+package com.example.composedemo.test1.row
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.ComponentActivity
-import com.example.composedemo.test1.TestActivity1
+import com.example.composedemo.R
 
 /**
- * Compose
+ * Row
  */
-class MainActivity : ComponentActivity() {
+class RowActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_row)
     }
 
     /**
-     * Jetpack Compose：Android全新UI编程
+     * test1
      */
     fun onTest1(v: View) {
-        startActivity(Intent(this, TestActivity1::class.java))
+        startActivity(Intent(this, RowActivity1::class.java))
     }
 
 

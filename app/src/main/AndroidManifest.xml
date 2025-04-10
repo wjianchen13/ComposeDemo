@@ -23,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".test1.TestActivity1" />
+        <activity android:name=".test1.row.RowActivity" />
+        <activity android:name=".test1.row.RowActivity1" />
+
     </application>
 
 </manifest>
