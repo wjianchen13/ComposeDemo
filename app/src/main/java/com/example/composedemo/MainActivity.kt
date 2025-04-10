@@ -22,7 +22,42 @@ class MainActivity : ComponentActivity() {
         startActivity(Intent(this, TestActivity1::class.java))
     }
 
+    fun onTest2(v: View) {
 
+    }
+
+    fun onTest3(v: View) {
+
+    }
+
+
+    fun onTest4(v: View) {
+
+    }
+
+    fun onTest5(v: View) {
+
+    }
+
+    fun onTest6(v: View) {
+
+    }
+
+    fun onTest7(v: View) {
+
+    }
+
+    fun onTest8(v: View) {
+
+    }
+
+    fun onTest9(v: View) {
+
+    }
+
+    fun onTest10(v: View) {
+
+    }
 
 
 }

@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Row 横向线性布局"
+            android:text="Column 竖向线性布局"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -25,6 +25,23 @@
             android:layout_height="wrap_content"
             android:text="test1"
             android:onClick="onTest1"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="verticalArrangement 测试"
+            android:onClick="onTest2"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="verticalArrangement 测试"
+            android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 

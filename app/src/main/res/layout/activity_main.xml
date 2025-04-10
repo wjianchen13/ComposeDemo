@@ -31,7 +31,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="runBlocking 创建协程"
+            android:text=""
             android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -39,7 +39,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="coroutineScope 创建协程"
+            android:text=""
             android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -47,7 +47,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="协程常用的写法"
+            android:text=""
             android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -99,31 +99,6 @@
             android:onClick="onTest10"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest11"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest12"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest13"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
 
     </LinearLayout>
 </ScrollView>
