@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jetpack Compose：Android全新UI编程"
+            android:text="动画"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -23,96 +23,16 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Row 横向线性布局"
-            android:onClick="onRow"
+            android:text="简单使用动画"
+            android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Box 帧布局"
-            android:onClick="onBox"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Column 竖向线性布局"
-            android:onClick="onColumn"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Modifier 修饰符"
-            android:onClick="onModifier"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Scaffold 脚手架"
-            android:onClick="onScaffold"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="ConstraintLayout"
-            android:onClick="onConstraintLayout"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="LazyColumn 竖向列表"
-            android:onClick="onLazyColumn"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="LazyColumn 横向列表"
-            android:onClick="onLazyRow"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="LazyVerticalGrad 网格列表"
-            android:onClick="onLazyVerticalGrid"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="BottomNavigationView 底部导航栏"
-            android:onClick="onBottomNavigationView"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="自定义View"
-            android:onClick="onCustomView"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="动画"
-            android:onClick="onAnim"
+            android:text="低级别动画"
+            android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
@@ -120,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
-            android:onClick="onTest13"
+            android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
@@ -128,19 +48,49 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
-            android:onClick="onTest14"
+            android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
-
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
-            android:onClick="onTest15"
+            android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="onTest6"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="onTest7"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="onTest8"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="onTest9"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 </ScrollView>

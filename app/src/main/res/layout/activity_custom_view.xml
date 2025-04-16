@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jetpack Compose：Android全新UI编程"
+            android:text="自定义View"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -23,123 +23,75 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Row 横向线性布局"
-            android:onClick="onRow"
+            android:text="绘制点"
+            android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Box 帧布局"
-            android:onClick="onBox"
+            android:text="绘制线"
+            android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Column 竖向线性布局"
-            android:onClick="onColumn"
+            android:text="绘制矩形"
+            android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Modifier 修饰符"
-            android:onClick="onModifier"
+            android:text="绘制圆"
+            android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Scaffold 脚手架"
-            android:onClick="onScaffold"
+            android:text="绘制椭圆"
+            android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ConstraintLayout"
-            android:onClick="onConstraintLayout"
+            android:text="绘制圆弧"
+            android:onClick="onTest6"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LazyColumn 竖向列表"
-            android:onClick="onLazyColumn"
+            android:text="绘制图片"
+            android:onClick="onTest7"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LazyColumn 横向列表"
-            android:onClick="onLazyRow"
+            android:text="绘制路径"
+            android:onClick="onTest8"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LazyVerticalGrad 网格列表"
-            android:onClick="onLazyVerticalGrid"
+            android:text="混合模式"
+            android:onClick="onTest9"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="BottomNavigationView 底部导航栏"
-            android:onClick="onBottomNavigationView"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="自定义View"
-            android:onClick="onCustomView"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="动画"
-            android:onClick="onAnim"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest13"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest14"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest15"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
 
 
     </LinearLayout>
