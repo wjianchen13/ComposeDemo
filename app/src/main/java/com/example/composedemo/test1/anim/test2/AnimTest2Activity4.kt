@@ -41,14 +41,14 @@ import com.example.composedemo.ui.theme.ComposeDemoTheme
 /**
  * 帧动画
  */
-class AnimTest2Activity3 : ComponentActivity() {
+class AnimTest2Activity4 : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeDemoTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Test3()
+                    Test4()
                 }
             }
         }
@@ -56,11 +56,12 @@ class AnimTest2Activity3 : ComponentActivity() {
 }
 
 @Composable
-fun Test3() {
+fun Test4() {
+
     val ok = remember { mutableStateOf(false) }
     val color = remember {
         Animatable(
-            initialValue = Red,
+            initialValue = Color.Red,
         )
     }
     LaunchedEffect(ok) {
@@ -68,10 +69,23 @@ fun Test3() {
     }
     Box(Modifier.size(360.dp).background(color.value))
 
+    Column(Modifier.padding(16.dp)) {
+        Button(
+            onClick = {
+                ok.value = !ok.value
+
+            },
+            modifier = Modifier.padding(vertical = 16.dp)
+        ) {
+            Text("Change Color")
+        }
+        Box(Modifier.size(360.dp).background(color.value))
+    }
+
 }
 
 @Preview(showBackground = true)
 @Composable
-fun TestPreview3() {
-    Test3()
+fun TestPreview4() {
+    Test4()
 }

@@ -47,10 +47,27 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="布局切换动画"
+            android:text="帧动画"
             android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="多动画同步"
+            android:onClick="onTest5"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="多动画重复"
+            android:onClick="onTest6"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
 
     </LinearLayout>
 </ScrollView>

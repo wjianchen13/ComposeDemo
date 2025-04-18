@@ -100,7 +100,31 @@
         <activity android:name=".test1.anim.test2.AnimTest2Activity1" />
         <activity android:name=".test1.anim.test2.AnimTest2Activity2" />
         <activity android:name=".test1.anim.test2.AnimTest2Activity3" />
-
+        <activity android:name=".test1.anim.test2.AnimTest2Activity4" />
+        <activity android:name=".test1.anim.test2.AnimTest2Activity5" />
+        <activity android:name=".test1.anim.test2.AnimTest2Activity6" />
+        <activity android:name=".test1.anim.test3.AnimTest3Activity" />
+        <activity android:name=".test1.anim.test3.AnimTest3Activity1" />
+        <activity android:name=".test1.anim.test4.AnimTest4Activity" />
+        <activity android:name=".test1.anim.test4.AnimTest4Activity1" />
+        <activity android:name=".test1.anim.test4.AnimTest4Activity2" />
+        <activity android:name=".test1.anim.test4.AnimTest4Activity3" />
+        <activity android:name=".test1.anim.test4.AnimTest4Activity4" />
+        <activity android:name=".test1.anim.test4.AnimTest4Activity5" />
+        <activity android:name=".test1.jetpack.JetpackActivity" />
+        <activity android:name=".test1.jetpack.test1.ViewModelActivity" />
+        <activity android:name=".test1.jetpack.test1.ViewModelActivity1" />
+        <activity android:name=".test1.jetpack.test1.ViewModelActivity2" />
+        <activity android:name=".test1.jetpack.test2.FlowActivity" />
+        <activity android:name=".test1.jetpack.test2.FlowActivity1" />
+        <activity android:name=".test1.jetpack.test3.NavigationActivity" />
+        <activity android:name=".test1.jetpack.test3.NavigationActivity1" />
+        <activity android:name=".test1.jetpack.test3.NavigationActivity2" />
+        <activity android:name=".test1.jetpack.test3.NavigationActivity3" />
+        <activity android:name=".test1.jetpack.test3.NavigationActivity4" />
+        <activity android:name=".test1.jetpack.test3.NavigationActivity5" />
+        <activity android:name=".test1.jetpack.test3.NavigationActivity6" />
+        <activity android:name=".test1.jetpack.test3.NavigationActivity7" />
 
 
     </application>

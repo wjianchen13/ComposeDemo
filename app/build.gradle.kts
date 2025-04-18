@@ -67,4 +67,12 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
+
+    implementation("androidx.compose.runtime:runtime-livedata:1.0.0-beta03")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07")
+
+    implementation("com.google.code.gson:gson:2.8.6")
+    implementation("androidx.navigation:navigation-compose:2.4.0-alpha04")
+
+
 }

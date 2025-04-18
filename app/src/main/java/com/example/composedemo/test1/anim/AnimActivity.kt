@@ -7,6 +7,8 @@ import androidx.activity.ComponentActivity
 import com.example.composedemo.R
 import com.example.composedemo.test1.anim.test1.AnimTest1Activity
 import com.example.composedemo.test1.anim.test2.AnimTest2Activity
+import com.example.composedemo.test1.anim.test3.AnimTest3Activity
+import com.example.composedemo.test1.anim.test4.AnimTest4Activity
 import com.example.composedemo.test1.customview.arc.ArcActivity
 import com.example.composedemo.test1.customview.circle.CircleActivity
 import com.example.composedemo.test1.customview.image.ImageActivity
@@ -41,17 +43,17 @@ class AnimActivity : ComponentActivity() {
     }
 
     /**
-     *
+     * 自定义动画
      */
     fun onTest3(v: View) {
-
+        startActivity(Intent(this, AnimTest3Activity::class.java))
     }
 
     /**
-     *
+     * 手势
      */
     fun onTest4(v: View) {
-
+        startActivity(Intent(this, AnimTest4Activity::class.java))
     }
 
     /**

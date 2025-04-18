@@ -119,8 +119,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest13"
+            android:text="Jetpack"
+            android:onClick="onJetpack"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 

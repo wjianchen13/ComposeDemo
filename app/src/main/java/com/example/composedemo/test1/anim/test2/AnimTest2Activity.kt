@@ -37,10 +37,24 @@ class AnimTest2Activity : ComponentActivity() {
     }
 
     /**
-     * 布局切换动画
+     * 帧动画
      */
     fun onTest4(v: View) {
+        startActivity(Intent(this, AnimTest2Activity4::class.java))
+    }
 
+    /**
+     * 多动画同步
+     */
+    fun onTest5(v: View) {
+        startActivity(Intent(this, AnimTest2Activity5::class.java))
+    }
+
+    /**
+     * 多动画重复
+     */
+    fun onTest6(v: View) {
+        startActivity(Intent(this, AnimTest2Activity6::class.java))
     }
 
 

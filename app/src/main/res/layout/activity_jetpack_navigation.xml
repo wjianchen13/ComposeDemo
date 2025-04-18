@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="动画"
+            android:text="Navigation"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -23,7 +23,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="简单使用动画"
+            android:text="基础使用"
             android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -31,7 +31,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="低级别动画"
+            android:text="返回上一层"
             android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -39,7 +39,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="自定义动画"
+            android:text="带参数跳转"
             android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -47,7 +47,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="手势"
+            android:text="传递多个参数"
             android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -55,7 +55,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="解析参数类型"
             android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -63,7 +63,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="添加可选参数"
             android:onClick="onTest6"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -71,26 +71,11 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="实体类参数"
             android:onClick="onTest7"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest8"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest9"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
 
     </LinearLayout>
 </ScrollView>

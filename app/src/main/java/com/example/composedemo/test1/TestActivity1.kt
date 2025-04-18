@@ -11,6 +11,7 @@ import com.example.composedemo.test1.box.BoxActivity
 import com.example.composedemo.test1.column.ColumnActivity
 import com.example.composedemo.test1.constraintlayout.ConstraintLayoutActivity
 import com.example.composedemo.test1.customview.CustomViewActivity
+import com.example.composedemo.test1.jetpack.JetpackActivity
 import com.example.composedemo.test1.lazycolumn.LazyColumnActivity
 import com.example.composedemo.test1.lazyrow.LazyRowActivity
 import com.example.composedemo.test1.lazyverticalgrid.LazyVerticalGridActivity
@@ -109,6 +110,13 @@ class TestActivity1 : ComponentActivity() {
      */
     fun onAnim(v: View) {
         startActivity(Intent(this, AnimActivity::class.java))
+    }
+
+    /**
+     * Jetpack
+     */
+    fun onJetpack(v: View) {
+        startActivity(Intent(this, JetpackActivity::class.java))
     }
 
 }
