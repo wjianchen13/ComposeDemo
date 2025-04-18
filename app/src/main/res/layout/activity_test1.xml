@@ -127,11 +127,10 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
-            android:onClick="onTest14"
+            android:text="与旧的Android View搭配使用"
+            android:onClick="onMix"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
-
 
         <Button
             android:layout_width="match_parent"

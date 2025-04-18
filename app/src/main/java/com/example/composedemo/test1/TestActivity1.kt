@@ -15,6 +15,7 @@ import com.example.composedemo.test1.jetpack.JetpackActivity
 import com.example.composedemo.test1.lazycolumn.LazyColumnActivity
 import com.example.composedemo.test1.lazyrow.LazyRowActivity
 import com.example.composedemo.test1.lazyverticalgrid.LazyVerticalGridActivity
+import com.example.composedemo.test1.mix.MixActivity
 import com.example.composedemo.test1.modifier.ModifierActivity
 import com.example.composedemo.test1.row.RowActivity
 import com.example.composedemo.test1.scaffold.ScaffoldActivity
@@ -117,6 +118,13 @@ class TestActivity1 : ComponentActivity() {
      */
     fun onJetpack(v: View) {
         startActivity(Intent(this, JetpackActivity::class.java))
+    }
+
+    /**
+     * 与旧的Android View搭配使用
+     */
+    fun onMix(v: View) {
+        startActivity(Intent(this, MixActivity::class.java))
     }
 
 }

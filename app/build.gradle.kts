@@ -42,6 +42,9 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.3"
     }
+    viewBinding {
+        enable = true
+    }
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -73,6 +76,7 @@ dependencies {
 
     implementation("com.google.code.gson:gson:2.8.6")
     implementation("androidx.navigation:navigation-compose:2.4.0-alpha04")
+    implementation("androidx.compose.ui:ui-viewbinding:1.0.0")
 
 
 }
