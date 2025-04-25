@@ -62,6 +62,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+    implementation("androidx.appcompat:appcompat:1.7.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
@@ -77,6 +78,6 @@ dependencies {
     implementation("com.google.code.gson:gson:2.8.6")
     implementation("androidx.navigation:navigation-compose:2.4.0-alpha04")
     implementation("androidx.compose.ui:ui-viewbinding:1.0.0")
-
+    implementation("androidx.fragment:fragment-ktx:1.4.0")
 
 }

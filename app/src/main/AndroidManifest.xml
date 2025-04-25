@@ -134,6 +134,25 @@
         <activity android:name=".test1.mix.test2.MixActivity2" />
         <activity android:name=".test1.mix.test3.MixActivity3" />
         <activity android:name=".test1.mix.test4.MixActivity4" />
+        <activity android:name=".test1.mix.test5.MixActivity5" />
+        <activity android:name=".test1.mix.test6.MixActivity6" />
+        <activity android:name=".test1.mix.test7.MixActivity7" />
+        <activity android:name=".test2.TestActivity2" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity1" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity2" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity3" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity4" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity5" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity6" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity7" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity8" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity9" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity10" />
+        <activity android:name=".test2.lazylayout.LazyLayoutActivity11" />
+
+
+
 
     </application>
 

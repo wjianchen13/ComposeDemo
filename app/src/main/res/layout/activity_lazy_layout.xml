@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Compose"
+            android:text="Lazy Layout"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -23,7 +23,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jetpack Compose：Android全新UI编程"
+            android:text="LazyColumn 基础使用"
             android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -31,7 +31,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="写给初学者的Jetpack Compose教程"
+            android:text="LazyColumn 带下标"
             android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -39,7 +39,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="LazyColumn 设置边距"
             android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -47,7 +47,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="LazyColumn 设置边距"
             android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -55,7 +55,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="LazyColumn 设置边距"
             android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -63,7 +63,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="LazyColumn 设置边距"
             android:onClick="onTest6"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -71,7 +71,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="rememberLazyListState"
             android:onClick="onTest7"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -79,7 +79,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="嵌套滚动"
             android:onClick="onTest8"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -87,7 +87,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="嵌套滚动"
             android:onClick="onTest9"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -95,8 +95,16 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="拼接不同类型子项"
             android:onClick="onTest10"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提升Lazy Layout性能"
+            android:onClick="onTest11"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 

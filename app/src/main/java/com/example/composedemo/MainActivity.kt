@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.ComponentActivity
 import com.example.composedemo.test1.TestActivity1
+import com.example.composedemo.test2.TestActivity2
 
 /**
  * Compose
@@ -22,8 +23,11 @@ class MainActivity : ComponentActivity() {
         startActivity(Intent(this, TestActivity1::class.java))
     }
 
+    /**
+     * 写给初学者的Jetpack Compose教程
+     */
     fun onTest2(v: View) {
-
+        startActivity(Intent(this, TestActivity2::class.java))
     }
 
     fun onTest3(v: View) {
