@@ -150,7 +150,12 @@
         <activity android:name=".test2.lazylayout.LazyLayoutActivity9" />
         <activity android:name=".test2.lazylayout.LazyLayoutActivity10" />
         <activity android:name=".test2.lazylayout.LazyLayoutActivity11" />
-
+        <activity android:name=".test2.derivedstateof.DerivedStateOfActivity" />
+        <activity android:name=".test2.derivedstateof.DerivedStateOfActivity1" />
+        <activity android:name=".test2.derivedstateof.DerivedStateOfActivity2" />
+        <activity android:name=".test2.layout.LayoutActivity" />
+        <activity android:name=".test2.layout.LayoutActivity1" />
+        <activity android:name=".test2.layout.LayoutActivity2" />
 
 
 

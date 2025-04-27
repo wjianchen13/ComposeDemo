@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.ComponentActivity
 import com.example.composedemo.R
+import com.example.composedemo.test2.derivedstateof.DerivedStateOfActivity
+import com.example.composedemo.test2.layout.LayoutActivity
 import com.example.composedemo.test2.lazylayout.LazyLayoutActivity
 
 /**
@@ -24,10 +26,17 @@ class TestActivity2 : ComponentActivity() {
     }
 
     /**
-     * Row
+     * derivedStateOf
      */
-    fun onTest2(v: View) {
+    fun onDerivedStateOf(v: View) {
+        startActivity(Intent(this, DerivedStateOfActivity::class.java))
+    }
 
+    /**
+     * 高级Layout
+     */
+    fun onLayout(v: View) {
+        startActivity(Intent(this, LayoutActivity::class.java))
     }
 
 
