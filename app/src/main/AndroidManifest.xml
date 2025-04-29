@@ -156,6 +156,20 @@
         <activity android:name=".test2.layout.LayoutActivity" />
         <activity android:name=".test2.layout.LayoutActivity1" />
         <activity android:name=".test2.layout.LayoutActivity2" />
+        <activity android:name=".test2.anim.AnimActivity" />
+        <activity android:name=".test2.anim.AnimActivity1" />
+        <activity android:name=".test2.anim.AnimActivity2" />
+        <activity android:name=".test2.anim.AnimActivity3" />
+        <activity android:name=".test2.anim.AnimActivity4" />
+        <activity android:name=".test2.anim.AnimActivity5" />
+        <activity android:name=".test2.anim.AnimActivity6" />
+        <activity android:name=".test2.anim.AnimActivity7" />
+        <activity android:name=".test2.anim.AnimActivity8" />
+        <activity android:name=".test2.anim.AnimActivity9" />
+        <activity android:name=".test2.anim.AnimActivity10" />
+        <activity android:name=".test2.anim.AnimActivity11" />
+        <activity android:name=".test2.anim.AnimActivity12" />
+        <activity android:name=".test2.anim.AnimActivity13" />
 
 
 
