@@ -170,6 +170,15 @@
         <activity android:name=".test2.anim.AnimActivity11" />
         <activity android:name=".test2.anim.AnimActivity12" />
         <activity android:name=".test2.anim.AnimActivity13" />
+        <activity android:name=".test2.sideeffect.SideEffectActivity" />
+        <activity android:name=".test2.sideeffect.SideEffectActivity1" />
+        <activity android:name=".test2.sideeffect.SideEffectActivity2" />
+        <activity android:name=".test2.sideeffect.SideEffectActivity3" />
+        <activity android:name=".test2.sideeffect.SideEffectActivity4" />
+        <activity android:name=".test2.sideeffect.SideEffectActivity5" />
+        <activity android:name=".test2.sideeffect.SideEffectActivity6" />
+        <activity android:name=".test2.sideeffect.SideEffectActivity7" />
+
 
 
 

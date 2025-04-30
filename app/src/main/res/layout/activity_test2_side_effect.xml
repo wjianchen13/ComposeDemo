@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="写给初学者的Jetpack Compose教程"
+            android:text="Compose 动画"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -23,42 +23,67 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lazy Layout"
-            android:onClick="onLazyLayout"
+            android:text="test"
+            android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="derivedStateOf"
-            android:onClick="onDerivedStateOf"
+            android:text="LaunchedEffect"
+            android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="高级Layout"
-            android:onClick="onLayout"
+            android:text="rememberUpdatedState"
+            android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Compose 动画"
-            android:onClick="onAnim"
+            android:text="rememberCoroutineScope"
+            android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Side Effect"
-            android:onClick="onSideEffect"
+            android:text="DisposableEffect"
+            android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="produceState"
+            android:onClick="onTest6"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SideEffect"
+            android:onClick="onTest7"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="例子"
+            android:onClick="onTest8"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
 
     </LinearLayout>
 </ScrollView>
