@@ -9,7 +9,9 @@ import com.example.composedemo.test2.anim.AnimActivity
 import com.example.composedemo.test2.derivedstateof.DerivedStateOfActivity
 import com.example.composedemo.test2.layout.LayoutActivity
 import com.example.composedemo.test2.lazylayout.LazyLayoutActivity
+import com.example.composedemo.test2.modifier.ModifierActivity
 import com.example.composedemo.test2.sideeffect.SideEffectActivity
+import com.example.composedemo.test2.view.ViewActivity
 
 /**
  * 写给初学者的Jetpack Compose教程
@@ -18,6 +20,20 @@ class TestActivity2 : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_test2)
+    }
+
+    /**
+     * Compose 基础控件
+     */
+    fun onView(v: View) {
+        startActivity(Intent(this, ViewActivity::class.java))
+    }
+
+    /**
+     * Compose Modifier
+     */
+    fun onModifier(v: View) {
+        startActivity(Intent(this, ModifierActivity::class.java))
     }
 
     /**

@@ -1,5 +1,13 @@
 # Compose
 
+# 编译环境
+20250902
+android-studio-2024.3.2.15
+gradle插件:8.10.0
+gradle:gradle-8.12-bin
+
+
+
 # 参考文档
 
 Jetpack Compose完全脱离View系统了吗

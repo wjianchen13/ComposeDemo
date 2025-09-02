@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compose Modifier"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改尺寸、布局、行为和样式"
+            android:onClick="onTest1"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="处理用户的输入"
+            android:onClick="onTest2"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextField"
+            android:onClick="onTest3"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image"
+            android:onClick="onTest4"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressIndicator"
+            android:onClick="onTest5"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Column"
+            android:onClick="onTest6"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Row"
+            android:onClick="onTest7"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Box"
+            android:onClick="onTest8"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="animateColorAsState"
+            android:onClick="onTest9"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AnimationSpec tween"
+            android:onClick="onTest10"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AnimationSpec spring"
+            android:onClick="onTest11"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="enter和exit动画"
+            android:onClick="onTest12"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="重复性动画"
+            android:onClick="onTest13"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
+
+    </LinearLayout>
+</ScrollView>
