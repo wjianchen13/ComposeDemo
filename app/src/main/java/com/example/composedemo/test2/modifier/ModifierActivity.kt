@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.ComponentActivity
 import com.example.composedemo.R
-import com.example.composedemo.test2.anim.AnimActivity1
 
 /**
  * Compose Modifier
@@ -31,82 +30,25 @@ class ModifierActivity : ComponentActivity() {
     }
 
     /**
-     *
+     * 使控件可点击、滚动、拖拽
      */
     fun onTest3(v: View) {
-
+        startActivity(Intent(this, ModifierActivity3::class.java))
     }
 
     /**
-     *
+     * 串接顺序有影响
      */
     fun onTest4(v: View) {
-
+        startActivity(Intent(this, ModifierActivity4::class.java))
     }
 
     /**
-     *
+     * 为Composable函数增加Modifier参数
      */
     fun onTest5(v: View) {
-
+        startActivity(Intent(this, ModifierActivity5::class.java))
     }
-
-    /**
-     *
-     */
-    fun onTest6(v: View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest7(v: View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest8(v: View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest9(v: View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest10(v: View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest11(v: View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest12(v: View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest13(v: View) {
-
-    }
-
 
 }
 

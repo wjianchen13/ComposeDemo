@@ -12,6 +12,7 @@ import com.example.composedemo.test2.lazylayout.LazyLayoutActivity
 import com.example.composedemo.test2.modifier.ModifierActivity
 import com.example.composedemo.test2.sideeffect.SideEffectActivity
 import com.example.composedemo.test2.view.ViewActivity
+import com.example.composedemo.test2.state.StateActivity
 
 /**
  * 写给初学者的Jetpack Compose教程
@@ -34,6 +35,13 @@ class TestActivity2 : ComponentActivity() {
      */
     fun onModifier(v: View) {
         startActivity(Intent(this, ModifierActivity::class.java))
+    }
+
+    /**
+     * Compose State
+     */
+    fun onState(v: View) {
+        startActivity(Intent(this, StateActivity::class.java))
     }
 
     /**
