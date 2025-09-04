@@ -52,10 +52,17 @@ class StateActivity : ComponentActivity() {
     }
 
     /**
-     * 结合ViewModel一起使用
+     * 结合ViewModel一起使用 LiveData
      */
     fun onTest6(v: View) {
         startActivity(Intent(this, StateActivity6::class.java))
+    }
+
+    /**
+     * 结合ViewModel一起使用 Flow
+     */
+    fun onTest7(v: View) {
+        startActivity(Intent(this, StateActivity7::class.java))
     }
 
 }

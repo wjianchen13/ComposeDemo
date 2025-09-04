@@ -160,6 +160,7 @@
         <activity android:name=".test2.state.StateActivity4" />
         <activity android:name=".test2.state.StateActivity5" />
         <activity android:name=".test2.state.StateActivity6" />
+        <activity android:name=".test2.state.StateActivity7" />
         <activity android:name=".test2.lazylayout.LazyLayoutActivity" />
         <activity android:name=".test2.lazylayout.LazyLayoutActivity1" />
         <activity android:name=".test2.lazylayout.LazyLayoutActivity2" />

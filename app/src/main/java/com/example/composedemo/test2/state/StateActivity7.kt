@@ -9,17 +9,17 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.composedemo.ui.theme.ComposeDemoTheme
 
 /**
- * 结合ViewModel一起使用 LiveData
+ * 结合ViewModel一起使用 Flow
  */
-class StateActivity6 : ComponentActivity() {
+class StateActivity7 : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,7 +27,7 @@ class StateActivity6 : ComponentActivity() {
             ComposeDemoTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    CallCounter6()
+                    CallCounter7()
                 }
             }
         }
@@ -35,9 +35,9 @@ class StateActivity6 : ComponentActivity() {
 }
 
 @Composable
-fun CallCounter6(modifier: Modifier = Modifier, viewModel: MainViewModel6 = viewModel()) {
-    val count by viewModel.count.observeAsState(0)
-    val doubleCount by viewModel.doubleCount.observeAsState(0)
+fun CallCounter7(modifier: Modifier = Modifier, viewModel: MainViewModel7 = viewModel()) {
+    val count by viewModel.count.collectAsState()
+    val doubleCount by viewModel.doubleCount.collectAsState()
     Column {
         Counter(
             count = count,
@@ -52,10 +52,8 @@ fun CallCounter6(modifier: Modifier = Modifier, viewModel: MainViewModel6 = view
     }
 }
 
-
-
 @Preview(name = "测试", widthDp = 1000, heightDp = 2000, showBackground = true)
 @Composable
-fun TestAnim1Preview6() {
-    CallCounter6()
+fun TestAnim1Preview7() {
+    CallCounter7()
 }
